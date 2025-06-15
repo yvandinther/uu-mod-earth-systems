@@ -1,5 +1,5 @@
 # Modelling Earth Systems - Project Code
-A python reworking of the visco-elasto-plastic geodynamics code developed in the book *Numerical Geodynamic Modelling* by Taras Gerya [1]. It uses a finite difference staggered grid approach to solve the Stoke's, continuity and temperature equations, along with markers for advection.
+A python reworking of the visco-elasto-plastic thermo-mechanical code developed in the book *Introduction to Numerical Geodynamic Modelling* by Taras Gerya [1]. It uses a finite difference staggered grid approach to solve the Stoke's, continuity and temperature equations, along with markers for advection.
 
 ## Installation
 The required python packages are listed in the `environment.yml` file.  To create a new conda environment with these packages installed, run the command `conda env create -f environment.yml` in the top directory of the repo.  This will create an environment called `mod-earth`, which can then be activated using `conda activate mod-earth`.  
